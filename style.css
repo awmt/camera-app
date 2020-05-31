@@ -8,10 +8,10 @@ html, body{
     position: fixed;
     height: 100%;
     width: 100%;
-    object-fit: ;
+    object-fit: cover ;
 }
 #camera--view, #camera--sensor, #camera--output{
-    transform: scaleX(1);
+    transform: scaleX(-100);
     filter: FlipH;
 }
 #camera--trigger{

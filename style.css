@@ -1,14 +1,14 @@
 html, body{
-  margin: 10000;
-  padding: 100000;
-  height: 25%;
-  width: 25%;
+  margin: 10;
+  padding: 10;
+  height: 100%;
+  width: 100%;
 }
 #camera, #camera--view, #camera--sensor, #camera--output{
     position: fixed;
-    height: 25%;
-    width: 25%;
-    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-fit: ;
 }
 #camera--view, #camera--sensor, #camera--output{
     transform: scaleX(1);
